@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        title Update Custom Object Form | Integrating With HubSpot I Practicum
+    body
+        h1 Add a New Plant
+
+        form(action="/update-cobj" method="POST")
+            label Name:
+            input(type="text" name="name")
+            br
+            br
+
+            label Species:
+            input(type="text" name="species")
+            br
+            br
+
+            label Watering:
+            input(type="text" name="watering")
+            br
+            br
+
+            button(type="submit") Add Plant
+
+        br
+        a(href="/") Return to the homepage
